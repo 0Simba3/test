@@ -1,4 +1,4 @@
-let btntoggle = document.getElementById("btntoggle");
+
 
 btntoggle.onclick = function click() {
   let theme = document.getElementById("theme");
