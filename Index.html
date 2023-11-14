@@ -76,7 +76,17 @@
 		<div class="container">
 		<div class="wrapper">
 			<button id="btntoggle">Сменить тему</button>
-			<script src="javas2.js"></script>
+			<script>let btntoggle = document.getElementById("btntoggle");
+
+btntoggle.onclick = function click() {
+  let theme = document.getElementById("theme");
+
+  if (theme.getAttribute("href") == "main.css") {
+    theme.href = "dark-theme.css";
+  }else{
+    theme.href = "main.css";
+  }
+}</script>
 		</div>
 			<div class="inner_content">
 				<h2>Описание наших услуг</h2>
