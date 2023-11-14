@@ -86,7 +86,21 @@ btntoggle.onclick = function click() {
   }else{
     theme.href = "main.css";
   }
-}</script>
+}
+			</script>
+			<script>
+				let btntoggle = document.getElementById("btntoggle");
+
+btntoggle.onclick = function click() {
+  let theme = document.getElementById("theme");
+
+  if (theme.getAttribute("href") == "main2.css") {
+    theme.href = "dark-theme2.css";
+  }else{
+    theme.href = "main2.css";
+  }
+}
+			</script>
 		</div>
 			<div class="inner_content">
 				<h2>Описание наших услуг</h2>
